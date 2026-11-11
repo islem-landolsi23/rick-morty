@@ -10,10 +10,9 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'rick';
-  backgroundImageUrl = '/rick2.jpeg';
   private audio = new Audio();
   constructor() {
-    this.audio.src = '/ricksound.mp3';
+    this.audio.src = '/rick-morty/ricksound.mp3';
     this.audio.load();
   }
 

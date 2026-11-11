@@ -8,7 +8,7 @@ body {
 }
 
 body {
-  background-image: url("/rick3.jpg"); /* Note the leading slash targeting the public root */
+  background-image: url("/rick-morty/rick3.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
